@@ -1,0 +1,101 @@
+/* SERVICES 
+============================================= */
+
+.services {
+    padding-top: 50px;
+}
+
+.section-title-1 {
+    margin: 0px auto 20px auto;
+    text-align: center;
+    font-family: 'Kaushan Script';
+    line-height: 28px;
+}
+
+.section-title-2 {
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $f-montserrat;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.section-title-2__after::after {
+    content: '';
+    display: block;
+    margin: 40px auto 0px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.service-list {
+    padding-top: 62px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.services-list__item {
+    padding: 0px 0px 98px 80px;
+    display: block;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 380px;
+            flex: 0 0 380px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.services-list__item::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 24px;
+}
+
+.services-list__item--alarm::before {
+    background-image: url(../../images/services_icons/ALARM.png);
+}
+.services-list__item--line::before {
+    background-image: url(../../images/services_icons/LINE_GRAPH.png);
+}
+.services-list__item--computer::before {
+    background-image: url(../../images/services_icons/COMPUTER_OK.png);
+}
+.services-list__item--book::before {
+    background-image: url(../../images/services_icons/BOOK_2.png);
+}
+.services-list__item--home::before {
+    background-image: url(../../images/services_icons/HOME.png);
+}
+.services-list__item--image::before {
+    background-image: url(../../images/services_icons/IMAGE.png);
+}
+
+.services-list__title {
+    margin: 0px 0px 15px 0px;
+    text-transform: uppercase;
+    font-family: $f-montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.services-list__text {
+    margin: 0px;
+    font-family: $f-roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}

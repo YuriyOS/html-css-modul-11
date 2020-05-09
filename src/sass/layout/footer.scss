@@ -1,0 +1,52 @@
+/* FOOTER 
+============================================= */
+
+.footer-wrap {
+    height: 64px;
+    border-top: 1px solid rgb(229, 229, 229);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer-text {
+    font-family: $f-montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.footer-text--color {
+    color: #f38181;
+}
+
+.footer-form__input {
+    margin: 0px;
+    padding: 0px 12px 0px 12px;
+    width: 230px;
+    height: 40px;
+    font-family: $f-roboto;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid rgb(231, 231, 231);
+    float: left;
+}
+
+.footer-form__btn  {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: $f-montserrat;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(149, 225, 211);
+}
